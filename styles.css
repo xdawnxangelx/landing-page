@@ -58,6 +58,7 @@ body {
 	min-height: 460px;
 	flex-wrap: wrap;
 	padding-bottom: 100px;
+	justify-content: center;
 }
 
 .top-left {
@@ -237,6 +238,7 @@ body {
 }
 
 @media all and (max-width: 800px) {
+.header {padding: 20px 15px;}
 .hero {flex-direction: column; align-items: center; padding: 50px;}
 .top-left{padding-left: 20px; align-items: center;}
 .text {padding: 30px;}
