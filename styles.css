@@ -161,7 +161,7 @@ body {
 	justify-content: center;
 	min-height: 460px;
 	background-color: #E5E7EB;
-	padding: 50px 300px;
+	padding: 50px 100px;
 }
 
 .quote-text {
@@ -178,7 +178,8 @@ body {
 	font-weight: bold;
 	font-size: 24px;
 	color: #1F2937;	
-	align-self: flex-end;
+	padding-top: 20px;
+	align-self: space-around;
 }
 
 .cta-container {
@@ -235,14 +236,13 @@ body {
 	padding: 20px;
 }
 
-
 @media all and (max-width: 800px) {
 .hero {flex-direction: column; align-items: center; padding: 50px;}
 .top-left{padding-left: 20px; align-items: center;}
 .text {padding: 30px;}
 .image {margin-bottom: 100px; margin-top: 50px;}
 .info-title {padding: 50px;}
-.quote-container {padding: 20px 50px;}
+.quote-container {padding: 10px 50px;}
 .quote-text {font-size: 24px;}
 .speaker {padding-right: 50px;}
 }
